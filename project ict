@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int
+main ()
+{
+  printf ("\033[1;32m");
+  printf ("My Favorite Songs \n");
+
+  printf ("\033[0;34m");
+  printf ("1.Runaway by Kanye West \n");
+  
+  printf ("\033[0;31m");
+  printf ("2.Pyramids by Frank Ocean \n");
+  
+  printf ("\033[0;33m");
+  printf ("3.Spoliarium by Eraserheads \n");
+  
+  printf ("\033[0;36m");
+  printf ("4.Teka Lang by Emman \n");
+  
+  printf ("\033[0;35m");
+  printf ("5.Demonyo by juan karlos \n");
+  
+}
